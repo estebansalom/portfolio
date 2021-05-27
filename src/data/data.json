@@ -1,0 +1,424 @@
+{
+    "Personal":{
+        "name": "Esteban Salom Castillo",
+        "job": "Software Developer",
+        "email": "esteban.salom@gmail.com",
+        "phone": "+506 84336258",
+        "description":"Easily adaptable college student with a Technical Degree in Software Engineering and 12 months of work experience helping people learn the fundamentals of programming. Aiming to leverage academic experience and a proven knowledge of software documentation, application development and code efficiency to successfully fill the role at your company. Frequently referred to as a proactive problem solver by my peers I can be relied upon to help your company achieve its goals."
+    },
+    "Languages":[
+        {
+            "name":"Spanish",
+            "percentage": 99,
+            "color": "#191919"
+        },
+        {
+            "name":"English",
+            "percentage": 90,
+            "color": "#626262"
+        }
+    ],
+    "Experience":[
+        {
+            "place":"Amazon",
+            "address":"Work From Home",
+            "title":"Shipping & Delivery Support",
+            "from":"October, 2020",
+            "to":"January, 2021",
+            "description":"I had the chance to participate in the Shipping & Delivery Support team at Amazon while trying to apply for a Development Job from within the company. Sadly after completing the due working period at this position I had to leave because the schedule would intefere with my studies which a the time were and still are my priority. Some of my responsibilities while working at Amazon included:",
+            "image": "img/amazon.png",
+            "tasks":[
+                {"name":"Guiding delivery personnel using mapping tools"},
+                {"name":"Handling errors with missing shiments"},
+                {"name":"Dealing with all kinds of customers"},
+                {"name":"Providing customer oriented solutions"}
+            ]
+        },
+        {
+            "place":"Konrad Group",
+            "address":"Tres Ríos, Cartago, Costa Rica",
+            "title":"Intern",
+            "from":"January, 2020",
+            "to":"April, 2020",
+            "description":"I was awarded a scholarship to participate in a Fullstack Web Development Immersive program where I worked with technologies such as Java Spring Boot and Node.js for back-end development, Angular, vanilla JS and React.js w/ hooks, for front-end development, and also received several “Power Hours” with software professionals who shared useful information on Sass animations, Quality Assurance and other topics relevant to software development. Some of the skills i practised during my time in Konrad include:",
+            "image": "img/bs.png",
+            "tasks":[
+                {"name":"ReactJS Development"},
+                {"name":"Responsive Web Design"},
+                {"name":"Spring Boot Development"},
+                {"name": "NodeJS Development"}
+            ]
+        },
+        {
+            "place":"Universidad Cenfotec",
+            "address":"Montes de Oca, San José, Costa Rica",
+            "title":"Teacher's Aide",
+            "from":"January, 2019",
+            "to":"December, 2019",
+            "description":"My work as Teacher's Aide at Universidad Cenfotec, involved helping teach incoming students the fundamentals of programming through a process starting in sequence diagrams and pseudocode, and ending in the bases of Object Oriented Programing in Java. Some of my responsibilities as a TA included:",
+            "image": "img/cenfo.png",
+            "tasks":[
+                {"name":"Helping students understand the Fundamentals of Programming in Java"},
+                {"name":"Answering students' questions"},
+                {"name":"Organizing and guiding study groups"}
+            ]
+        },
+        {
+            "place":"Vail Resorts",
+            "address":"Vail, Colorado, USA",
+            "title":"Mountain Dinning Staff",
+            "from":"December, 2017",
+            "to":"April, 2018",
+            "description":"My work for Vail Resorts was part of a student program called “Work & Travel” where university students get to experience working and living in some of the United States' biggest ski resorts. While working there I was a cook in charge of a burger stand at a mountain top restaurant called Eagle's Nest, some of my responsibilities working there included:",
+            "image": "img/vail.png",
+            "tasks":[
+                {"name":"Providing customer's with great Mountain Dining Experience."},
+                {"name":"Cooking and taking orders at a burger joint."},
+                {"name":"Keeping workplace stocked and clean."}
+            ]
+        }
+    ],
+    "Formation":[
+        {
+            "place":"Universidad Cenfotec",
+            "from":"April, 2017",
+            "to":"present",
+            "degree":"Bachelor's Degree in Software Engineering"
+        },
+        {
+            "place":"Universidad Cenfotec",
+            "from":"April, 2017",
+            "to":"September, 2019",
+            "degree":"Software Development Technical Degree"
+        },
+        {
+            "place":"Universidad de Costa Rica",
+            "from":"March, 2017",
+            "to":"December, 2017",
+            "degree":"Bachelor's Degree in Architecture"
+        },
+        {
+            "place":"Mount View High School",
+            "from":"September, 2013",
+            "to":"November, 2016",
+            "degree":"National Bachelor's Degree"
+        },
+        {
+            "place":"Angloamerican High School",
+            "from":"February, 2002",
+            "to":"September, 2013",
+            "degree":"National Bachelor's Degree"
+        }
+    ],
+    "Skills":[
+        {
+            "name":"",
+            "icon":""
+        }
+    ],
+    "SoftSkills":[
+        {
+            "name":"",
+            "icon":""
+        }
+    ],
+    "Programming":[
+        {
+            "name": "JAVA",
+            "percentage": "95",
+            "color":"#A0A0A0"
+        },
+        {
+            "name": "HTML",
+            "percentage": "99",
+            "color":"#626262"
+        },
+        {
+            "name": "JS",
+            "percentage": "85",
+            "color":"#969696"
+        },
+        {
+            "name": "PYTHON",
+            "percentage": "50",
+            "color":"#0E0E0E"
+        }
+    ],
+    "Technologies":[
+        {
+            "name":"ReactJS"
+        },
+        {
+            "name":"Angular7"
+        },
+        {
+            "name":"SpringBoot"
+        }
+    ],
+    "Projects":[
+        {
+            "name":"Toquí",
+            "date":"II-2019",
+            "position": "Support / Coordination",
+            "technologies": [
+                {
+                    "type":"Back-End",
+                    "name": "ASP.NET REST API (C#)",
+                    "icon": ""
+                },
+                {
+                    "type":"Front-End",
+                    "name": ".NET Web Application",
+                    "icon": ""
+                },
+                {
+                    "type":"Data Base",
+                    "name": "Microsoft SQL",
+                    "icon": ""
+                }
+            ],
+            "url":"",
+            "description":"Toquí was a hotel managing, promoting and booking app developed at Universidad Cenfotec while coursing “Proyecto de Ingeniería de Software II”. Toquí was developed using a .NET MVC Web Application for the Front-End and a series of REST API's connected to C# projects and an SQL database for the Back-End. The whole project was developed using Microsoft technologies as a challenge so we had to learn how to use tools like C#, Team Foundation Services (for version control), SQL Server 2017, Visual Studio 2019 and several different services from the AzurePortal which helped us get the project from ideas and sequence diagrams to a fully functional application running completely on the cloud.",
+            "images":[
+                {
+                    "alt": "Landing Page de Toqui",
+                    "url": "img/LandingToqui.PNG",
+                    "name":"Landing Page"
+                },
+                {
+                    "alt": "Pagina de Hotel de Toqui",
+                    "url": "img/PanelHotelToqui.PNG",
+                    "name":"Pagina de Hotel"
+                },
+                {
+                    "alt": "Dashboard de Toqui",
+                    "url": "img/HoteleroToqui1.PNG",
+                    "name":"Dashboard de Administrador de Hotel"
+                },
+                {
+                    "alt": "Dashboard de Toqui",
+                    "url": "img/HoteleroToqui2.PNG",
+                    "name":"Dashboard de Administrador de Hotel 2"
+                }
+            ]
+        },
+        {
+            "name":"BankIt",
+            "date":"I-2020",
+            "position": "Front-End and Back-End Development",
+            "technologies": [
+                {
+                    "type":"Back-End",
+                    "name": "Spring Boot",
+                    "icon": ""
+                },
+                {
+                    "type":"Front-End",
+                    "name": "ReactJS",
+                    "icon": ""
+                },
+                {
+                    "type":"Data Base",
+                    "name": "MySQL",
+                    "icon": ""
+                }
+            ],
+            "url":"",
+            "description":"This project was developed while coursing the BrainStation Web Development Immersive at Konrad Group. It was a mock bank application created using ReactJS with for the Front-End, Spring Boot for the Back-End and a MySQL Database.",
+            "images":[
+                {
+                    "alt": "BankIt Dashboard",
+                    "url": "img/BancoDashboard.PNG",
+                    "name":"Dashboard"
+                },
+                {
+                    "alt": "BankIt Login Page",
+                    "url": "img/BancoLogin.PNG",
+                    "name":"Login"
+                },
+                {
+                    "alt": "BankIt Page",
+                    "url": "img/BancoTransfer.PNG",
+                    "name":"Register Transfer Page"
+                }
+            ]
+        },
+        {
+            "name":"Client Panel",
+            "date":"I-2019",
+            "position": "Front-End and Back-End Development",
+            "technologies": [
+                {
+                    "type":"Back-End",
+                    "name": "FireBase",
+                    "icon": ""
+                },
+                {
+                    "type":"Front-End",
+                    "name": "ReactJS",
+                    "icon": ""
+                },
+                {
+                    "type":"Data Base",
+                    "name": "FireBase",
+                    "icon": ""
+                }
+            ],
+            "url":"",
+            "description":"This project was developed on my spare time following Brad Traversy's “React Front to Back” course on Udemy. It was a client balance managing app created using ReactJS with Redux for the Front-End, and FireBase for the Back-End and data storage.",
+            "images":[
+                {
+                    "alt": "Client Panel Landing Page",
+                    "url": "img/ClientPanelLanding.PNG",
+                    "name":"Dashboard"
+                },
+                {
+                    "alt": "Client Panel Login Page",
+                    "url": "img/ClientPanelLogin.PNG",
+                    "name":"Login"
+                },
+                {
+                    "alt": "Client Panel Profile Page",
+                    "url": "img/ClientPanelProfile.PNG",
+                    "name":"Profile"
+                },
+                {
+                    "alt": "Client Panel Profile Page",
+                    "url": "img/ClientPanelSettings.PNG",
+                    "name":"Settings"
+                }
+            ]
+        },
+        {
+            "name":"Reinos Cenfotecos",
+            "date":"II-2020",
+            "position": "Front-End and Back-End Development",
+            "technologies": [
+                {
+                    "type":"Back-End",
+                    "name": "Spring Boot",
+                    "icon": ""
+                },
+                {
+                    "type":"Front-End",
+                    "name": "ReactJS",
+                    "icon": ""
+                },
+                {
+                    "type":"Data Base",
+                    "name": "H2",
+                    "icon": ""
+                }
+            ],
+            "url":"",
+            "description":"Reinos Cenfotecos was castle attack game that consisted in placing terrains and using them to get pieces to the enemy castle to steal their gold. It was developed using ReactJS for the Front-End, and a Spring Boot Application connected to H2 for the Back-End. This was the final project por our Design Patterns course and had more than 9 different GoF Design Patterns such as: Proxy, Lightweight, Abstract Factory, and more...",
+            "images":[
+                {
+                    "alt": "Tabero en juego de Reinos Cenfotecos",
+                    "url": "img/ReinosCenfotecos.PNG",
+                    "name":"Tablero"
+                }
+            ]
+        },
+        {
+            "name":"Asistentes Cenfotec",
+            "date":"II-2018",
+            "position": "QA / Development",
+            "technologies": [
+                {
+                    "type":"Back-End",
+                    "name": "NodeJS",
+                    "icon": ""
+                },
+                {
+                    "type":"Front-End",
+                    "name": "HTML, CSS, JS",
+                    "icon": ""
+                },
+                {
+                    "type":"Data Base",
+                    "name": "MONGODB",
+                    "icon": ""
+                }
+            ],
+            "url":"",
+            "description":"Asistentes Cenfotec was an application designed to automatize the Teache's Aide program at Universidad Cenfotec, some of it's responsabilities were tracking the Aide's activities and calculating the due discount percentage in their tuition according to their work. The application was developed using HTML5, CSS3 and JS for the Front-End, and a Node.js/Express.js server connected to MongoDB for the Back-End. ",
+            "images":[
+                {
+                    "alt": "Landing Page de Asistentes Cenfotec",
+                    "url": "img/AsistentesCenfoLanding.PNG",
+                    "name":"Landing Page"
+                },
+                {
+                    "alt": "Registro de Usuarios de Asistentes Cenfotec",
+                    "url": "img/AsistentesCenfoUsuarios.PNG",
+                    "name":"Registro de Usuarios"
+                },
+                {
+                    "alt": "Registro de Sedes de Asistentes Cenfotec",
+                    "url": "img/AsistentesCenfoSedes.PNG",
+                    "name":"Registro de Sede"
+                },
+                {
+                    "alt": "Perfil de Asistentes Cenfotec",
+                    "url": "img/AsistentesCenfoPerfil.PNG",
+                    "name":"Perfil"
+                }
+            ]
+        },
+        {
+            "name":"FitSwap",
+            "date":"III-2020",
+            "position": "Front-End and Back-End Development",
+            "technologies": [
+                {
+                    "type":"Back-End",
+                    "name": "Spring Boot",
+                    "icon": ""
+                },
+                {
+                    "type":"Front-End",
+                    "name": "ReactJS",
+                    "icon": ""
+                },
+                {
+                    "type":"Data Base",
+                    "name": "PostgreSQL",
+                    "icon": ""
+                }
+            ],
+            "url":"",
+            "description":"FitSwap was marketplace and social network for local clothing brand and other types of textile entreperneurs to sell and swap their products for other similar items with the community. It was developed using ReactJS for the Front-End, and a Spring Boot Application connected to PostreSQL for the Back-End. This was the final project for our Component Programming course and it was presented at ExpoCenfo as one of the best projects of the last quarter of 2020 because of it's continious deployment environment using AWS technologies.",
+            "images":[
+                {
+                    "alt": "Landing page de FitSwap",
+                    "url": "img/FitSwapLanding.PNG",
+                    "name":"Landing Page"
+                },
+                {
+                    "alt": "Perfil de FitSwap modo Oscuro",
+                    "url": "img/FitSwapProfile.PNG",
+                    "name":"Profile"
+                },
+                {
+                    "alt": "Post de FitSwap modo Oscuro",
+                    "url": "img/FitSwapPostNM.PNG",
+                    "name":"Post Night Mode"
+                },
+                {
+                    "alt": "Landing page de FitSwap modo Oscuro",
+                    "url": "img/FitSwapLandingNM.PNG",
+                    "name":"Landing Page Night Mode"
+                }
+            ]
+        }
+    ],
+    "Contact": {
+        "address": "100m este 50m sur de la Casa Italia, Bo. Francisco Peralta, San José",
+        "phone": "+84336258",
+        "email": "esteban.salom@gmail.com",
+        "github": "https://github.com/estebansalom/",
+        "linkedin": "https://www.linkedin.com/in/esteban-salom-bb3317174/",
+        "whatsapp": "https://wa.link/t2gq2q"
+    }
+}
