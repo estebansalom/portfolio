@@ -108,14 +108,14 @@ const Contact = (props) => {
         </div>
         <div className="contact-info">
           <div className="contact-item">
-            <h3>Información de contacto</h3>
+            <h3>Contact Information</h3>
             <p>
               <span>
                 <FontAwesomeIcon
                   icon={faLocationArrow}
                   className="fa"
                 ></FontAwesomeIcon>{" "}
-                Dirección
+                Address
               </span>
               {props.data ? props.data.address : "loading"}
             </p>
@@ -127,7 +127,7 @@ const Contact = (props) => {
                   icon={faPhone}
                   className="fa fa-phone"
                 ></FontAwesomeIcon>{" "}
-                Teléfono
+                Phone
               </span>{" "}
               {props.data ? props.data.phone : "loading"}
             </p>
@@ -139,7 +139,7 @@ const Contact = (props) => {
                   icon={faEnvelopeOpen}
                   className="fa fa-envelope-o"
                 ></FontAwesomeIcon>{" "}
-                Correo electrónico
+                Email
               </span>{" "}
               <a href="mailto:esteban.salom@gmail.com">
                 {props.data ? props.data.email : "loading"}

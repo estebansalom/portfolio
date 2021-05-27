@@ -177,7 +177,7 @@ li {
     object-fit: cover; }
 
 .landing__about-description--base {
-  padding: 5%;
+  padding: 3% 5%;
   width: 70%;
   font-size: 1.2rem; }
 
@@ -221,7 +221,8 @@ li {
   padding: 5%;
   font-size: 1.1rem; }
   .landing__job-description--base > p {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    text-align: justify; }
   .landing__job-description--base > ul {
     width: 100%;
     padding: 0; }
@@ -234,6 +235,13 @@ li {
   height: 200px;
   object-fit: contain;
   align-self: center; }
+
+.landing__soft-skills--base {
+  justify-content: space-evenly;
+  padding-top: 5%; }
+
+.landing__soft-skills-list--base > h3 {
+  padding-top: 5px; }
 
 .landing__skills--base {
   padding-top: 1%;
@@ -250,7 +258,8 @@ li {
     color: #ffffff; }
 
 .landing__portfolio-description--base {
-  padding: 0 5% 5%; }
+  padding: 0 5% 5%;
+  font-size: 1.1rem; }
 
 .landing__portfolio-items--base {
   display: flex;
@@ -328,7 +337,7 @@ li {
   font-size: 1.1rem; }
 
 #contact {
-  padding: 2% 2% 60px;
+  padding: 2% 2% 15px;
   background: linear-gradient(to right, #333333 0%, #777777 100%);
   color: rgba(255, 255, 255, 0.75); }
 
@@ -424,8 +433,8 @@ label {
 
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
+  padding-top: 25px;
+  margin-top: 25px;
   text-align: center; }
 
 #contact .social ul li {
@@ -471,6 +480,12 @@ label {
   background-color: rgba(43, 43, 43, 0.911); }
   .contact__button--base:hover {
     background-color: rgba(59, 59, 59, 0.849); }
+
+@media (max-width: 1375px) {
+  .center {
+    width: 100%;
+    display: flex;
+    justify-content: center; } }
 
 @media (max-width: 1250px) {
   .center {

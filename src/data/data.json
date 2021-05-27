@@ -4,7 +4,7 @@
         "job": "Software Developer",
         "email": "esteban.salom@gmail.com",
         "phone": "+506 84336258",
-        "description":"Easily adaptable college student with a Technical Degree in Software Engineering and 12 months of work experience helping people learn the fundamentals of programming. Aiming to leverage academic experience and a proven knowledge of software documentation, application development and code efficiency to successfully fill the role at your company. Frequently referred to as a proactive problem solver by my peers I can be relied upon to help your company achieve its goals."
+        "description":"Easily adaptable 4th year college student with a Technical Degree in Software Engineering. Worked three quarters as Teacher's Aide, helping other students learn the fundamentals of programming. Aiming to leverage academic experience and a proven knowledge of software documentation, web application development and code efficiency to successfully fill the role at your company. Frequently referred to as a great leader and proactive problem solver by my peers, I can be relied upon to help your company achieve its goals. Four of my projects have been proposed by my teachers to participate in ExpoCenfo (a quarterly exposition for the university's best programming projects)."
     },
     "Languages":[
         {
@@ -25,11 +25,11 @@
             "title":"Shipping & Delivery Support",
             "from":"October, 2020",
             "to":"January, 2021",
-            "description":"I had the chance to participate in the Shipping & Delivery Support team at Amazon while trying to apply for a Development Job from within the company. Sadly after completing the due working period at this position I had to leave because the schedule would intefere with my studies which a the time were and still are my priority. Some of my responsibilities while working at Amazon included:",
+            "description":"I was part of the Shipping & Delivery Support team at Amazon while trying to apply for a Development Job from within the company. I was awarded Top Preformer on our caller satisfaction metric for two weeks straight on my supervisor's group. Some of my responsibilities while working at Amazon included:",
             "image": "img/amazon.png",
             "tasks":[
                 {"name":"Guiding delivery personnel using mapping tools"},
-                {"name":"Handling errors with missing shiments"},
+                {"name":"Handling errors with missing shipments"},
                 {"name":"Dealing with all kinds of customers"},
                 {"name":"Providing customer oriented solutions"}
             ]
@@ -40,7 +40,7 @@
             "title":"Intern",
             "from":"January, 2020",
             "to":"April, 2020",
-            "description":"I was awarded a scholarship to participate in a Fullstack Web Development Immersive program where I worked with technologies such as Java Spring Boot and Node.js for back-end development, Angular, vanilla JS and React.js w/ hooks, for front-end development, and also received several “Power Hours” with software professionals who shared useful information on Sass animations, Quality Assurance and other topics relevant to software development. Some of the skills i practised during my time in Konrad include:",
+            "description":"I was awarded a scholarship to participate in a Fullstack Web Development Immersive program where I worked with technologies such as Java Spring Boot and Node.js for back-end development, Angular, vanilla JS and React.js w/ hooks, for front-end development, and also received several “Power Hours” with software professionals who shared useful information on Sass animations, Quality Assurance and other topics relevant to software development. Some of the skills I practiced during my time in Konrad include:",
             "image": "img/bs.png",
             "tasks":[
                 {"name":"ReactJS Development"},
@@ -55,10 +55,10 @@
             "title":"Teacher's Aide",
             "from":"January, 2019",
             "to":"December, 2019",
-            "description":"My work as Teacher's Aide at Universidad Cenfotec, involved helping teach incoming students the fundamentals of programming through a process starting in sequence diagrams and pseudocode, and ending in the bases of Object Oriented Programing in Java. Some of my responsibilities as a TA included:",
+            "description":"My work as Teacher's Aide for the Fundamentals of Programming course at Universidad Cenfotec, involved helping teach incoming students the basics of programming through a process starting in sequence diagrams and pseudocode, and ending in the bases of Object Oriented Programing in Java. Some of my responsibilities as a TA included:",
             "image": "img/cenfo.png",
             "tasks":[
-                {"name":"Helping students understand the Fundamentals of Programming in Java"},
+                {"name":"Helping students during class"},
                 {"name":"Answering students' questions"},
                 {"name":"Organizing and guiding study groups"}
             ]
@@ -69,11 +69,11 @@
             "title":"Mountain Dinning Staff",
             "from":"December, 2017",
             "to":"April, 2018",
-            "description":"My work for Vail Resorts was part of a student program called “Work & Travel” where university students get to experience working and living in some of the United States' biggest ski resorts. While working there I was a cook in charge of a burger stand at a mountain top restaurant called Eagle's Nest, some of my responsibilities working there included:",
+            "description":"My work for Vail Resorts was part of a student program called “Work & Travel” where university students get to experience working and living in some of the United States' most prestigious ski resorts. While working there I was a cook in charge of a burger stand at a mountain top restaurant called Eagle's Nest, some of my responsibilities working there included:",
             "image": "img/vail.png",
             "tasks":[
                 {"name":"Providing customer's with great Mountain Dining Experience."},
-                {"name":"Cooking and taking orders at a burger joint."},
+                {"name":"Prepairing and taking orders."},
                 {"name":"Keeping workplace stocked and clean."}
             ]
         }
@@ -98,6 +98,12 @@
             "degree":"Bachelor's Degree in Architecture"
         },
         {
+            "place":"Tecnológico de Costa Rica",
+            "from":"January, 2017",
+            "to":"August, 2017",
+            "degree":"Engineering and Architectural Drawing Technical Degree"
+        },
+        {
             "place":"Mount View High School",
             "from":"September, 2013",
             "to":"November, 2016",
@@ -117,10 +123,49 @@
         }
     ],
     "SoftSkills":[
-        {
-            "name":"",
-            "icon":""
-        }
+        [
+            {
+                "name":"Great Leadership",
+                "icon":""
+            },
+            {
+                "name":"Strong Adaptability",
+                "icon":""
+            },
+            {
+                "name":"Sense of Responsibility",
+                "icon":""
+            }
+        ],
+        [
+            {
+                "name":"Intuitive Thinking",
+                "icon":""
+            },
+            {
+                "name":"Self-Motivated",
+                "icon":""
+            },
+            {
+                "name":"Team Player",
+                "icon":""
+            }
+        ],
+        [
+            {
+                "name":"Fast-Paced Worker",
+                "icon":""
+            },
+            {
+                "name":"Profficient",
+                "icon":""
+            },
+            {
+                "name":"Dedicated",
+                "icon":""
+            }
+        ]
+        
     ],
     "Programming":[
         {
@@ -178,27 +223,27 @@
                 }
             ],
             "url":"",
-            "description":"Toquí was a hotel managing, promoting and booking app developed at Universidad Cenfotec while coursing “Proyecto de Ingeniería de Software II”. Toquí was developed using a .NET MVC Web Application for the Front-End and a series of REST API's connected to C# projects and an SQL database for the Back-End. The whole project was developed using Microsoft technologies as a challenge so we had to learn how to use tools like C#, Team Foundation Services (for version control), SQL Server 2017, Visual Studio 2019 and several different services from the AzurePortal which helped us get the project from ideas and sequence diagrams to a fully functional application running completely on the cloud.",
+            "description":"Toquí was presented at ExpoCenfo as one of the best projects of the second quarter of 2019 because of it's QR code/room key payment system and the reports this generated. It was a hotel managing, promoting and booking app developed at Universidad Cenfotec while coursing “Proyecto de Ingeniería de Software II”. Toquí was developed using a .NET MVC Web Application for the Front-End and a series of C# REST API's connected to an SQL database for the Back-End. The whole project was developed using Microsoft technologies as a challenge so we had to learn how to use tools like C#, Team Foundation Services (for version control), SQL Server 2017, Visual Studio 2019 and different services from the AzurePortal which helped us get the project from class and sequence diagrams to a fully functional application running completely on the cloud.",
             "images":[
                 {
-                    "alt": "Landing Page de Toqui",
+                    "alt": "Toqui Landing Page",
                     "url": "img/LandingToqui.PNG",
                     "name":"Landing Page"
                 },
                 {
-                    "alt": "Pagina de Hotel de Toqui",
+                    "alt": "Toqui Hotel Information Page",
                     "url": "img/PanelHotelToqui.PNG",
-                    "name":"Pagina de Hotel"
+                    "name":"Hotel Information Page"
                 },
                 {
-                    "alt": "Dashboard de Toqui",
+                    "alt": "Toqui Hotel Manager Dashboard",
                     "url": "img/HoteleroToqui1.PNG",
-                    "name":"Dashboard de Administrador de Hotel"
+                    "name":"Hotel Manager Dashboard"
                 },
                 {
-                    "alt": "Dashboard de Toqui",
+                    "alt": "Toqui Hotel Manager Dashboard 2",
                     "url": "img/HoteleroToqui2.PNG",
-                    "name":"Dashboard de Administrador de Hotel 2"
+                    "name":"Hotel Manager Dashboard"
                 }
             ]
         },
@@ -311,12 +356,12 @@
                 }
             ],
             "url":"",
-            "description":"Reinos Cenfotecos was castle attack game that consisted in placing terrains and using them to get pieces to the enemy castle to steal their gold. It was developed using ReactJS for the Front-End, and a Spring Boot Application connected to H2 for the Back-End. This was the final project por our Design Patterns course and had more than 9 different GoF Design Patterns such as: Proxy, Lightweight, Abstract Factory, and more...",
+            "description":"Reinos Cenfotecos was castle attack game that consisted in placing terrains and using them to get pieces to the enemy castle to steal their gold. It was developed using ReactJS for the Front-End, and a Spring Boot Application connected to H2 for the Back-End. This was the final project for our Design Patterns course and had more than 9 different GoF Design Patterns such as: Proxy, Lightweight, Abstract Factory, and more...",
             "images":[
                 {
-                    "alt": "Tabero en juego de Reinos Cenfotecos",
+                    "alt": "Reinos Cenfotecos Game Board",
                     "url": "img/ReinosCenfotecos.PNG",
-                    "name":"Tablero"
+                    "name":"Game Board"
                 }
             ]
         },
@@ -342,27 +387,27 @@
                 }
             ],
             "url":"",
-            "description":"Asistentes Cenfotec was an application designed to automatize the Teache's Aide program at Universidad Cenfotec, some of it's responsabilities were tracking the Aide's activities and calculating the due discount percentage in their tuition according to their work. The application was developed using HTML5, CSS3 and JS for the Front-End, and a Node.js/Express.js server connected to MongoDB for the Back-End. ",
+            "description":"Asistentes Cenfotec was an application designed to automate the Teacher's Aide program at Universidad Cenfotec, some of it's responsabilities were tracking the Aide's activities and calculating the due discount percentage in their tuition according to their work. The application was developed using HTML5, CSS3 and JS for the Front-End, and a Node.js/Express.js server connected to MongoDB for the Back-End. ",
             "images":[
                 {
-                    "alt": "Landing Page de Asistentes Cenfotec",
+                    "alt": "Landing Page for Asistentes Cenfotec",
                     "url": "img/AsistentesCenfoLanding.PNG",
                     "name":"Landing Page"
                 },
                 {
-                    "alt": "Registro de Usuarios de Asistentes Cenfotec",
+                    "alt": "User Registry Form for Asistentes Cenfotec",
                     "url": "img/AsistentesCenfoUsuarios.PNG",
-                    "name":"Registro de Usuarios"
+                    "name":"User Registry Form"
                 },
                 {
-                    "alt": "Registro de Sedes de Asistentes Cenfotec",
+                    "alt": "Location Registry Form for Asistentes Cenfotec",
                     "url": "img/AsistentesCenfoSedes.PNG",
-                    "name":"Registro de Sede"
+                    "name":"Location Registry Form"
                 },
                 {
-                    "alt": "Perfil de Asistentes Cenfotec",
+                    "alt": "Profile for Asistentes Cenfotec",
                     "url": "img/AsistentesCenfoPerfil.PNG",
-                    "name":"Perfil"
+                    "name":"Profile"
                 }
             ]
         },
@@ -388,7 +433,7 @@
                 }
             ],
             "url":"",
-            "description":"FitSwap was marketplace and social network for local clothing brand and other types of textile entreperneurs to sell and swap their products for other similar items with the community. It was developed using ReactJS for the Front-End, and a Spring Boot Application connected to PostreSQL for the Back-End. This was the final project for our Component Programming course and it was presented at ExpoCenfo as one of the best projects of the last quarter of 2020 because of it's continious deployment environment using AWS technologies.",
+            "description":"Fitswap was the final project for our Component Programming course and it was presented at ExpoCenfo as one of the best projects of the last quarter of 2020 because of it's continuous deployment environment using AWS technologies. It was designed as a marketplace and social network for local clothing brands and other types of textile industry entreperneurs to sell and swap their products for other similar items with the community. It was developed using ReactJS for the Front-End, and a Spring Boot Application connected to PostreSQL for the Back-End.",
             "images":[
                 {
                     "alt": "Landing page de FitSwap",
@@ -414,8 +459,8 @@
         }
     ],
     "Contact": {
-        "address": "100m este 50m sur de la Casa Italia, Bo. Francisco Peralta, San José",
-        "phone": "+84336258",
+        "address": "Calle 112, La Asunción, Belén, Heredia.",
+        "phone": "+506 84336258",
         "email": "esteban.salom@gmail.com",
         "github": "https://github.com/estebansalom/",
         "linkedin": "https://www.linkedin.com/in/esteban-salom-bb3317174/",

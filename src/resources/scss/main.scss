@@ -235,7 +235,7 @@ li {
   }
   &__about-description {
     &--base {
-      padding: 5%;
+      padding: 3% 5%;
       width: 70%;
       font-size: 1.2rem;
     }
@@ -315,6 +315,7 @@ li {
         font-size: 1.1rem;
         & > p {
           margin-bottom: 10px;
+          text-align: justify;
         }
         & > ul {
           width: 100%;
@@ -333,6 +334,21 @@ li {
         height: 200px;
         object-fit: contain;
         align-self: center;
+      }
+    }
+  }
+
+  &__soft-skills {
+    &--base {
+      justify-content: space-evenly;
+      padding-top: 5%;
+    }
+
+    &-list {
+      &--base {
+        & > h3 {
+          padding-top: 5px;
+        }
       }
     }
   }
@@ -364,6 +380,7 @@ li {
     &-description {
       &--base {
         padding: 0 5% 5%;
+        font-size: 1.1rem;
       }
     }
     &-items {
@@ -482,7 +499,7 @@ li {
 }
 
 #contact {
-  padding: 2% 2% 60px;
+  padding: 2% 2% 15px;
   background: linear-gradient(to right, #333333 0%, #777777 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -583,8 +600,8 @@ label {
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
+  padding-top: 25px;
+  margin-top: 25px;
   text-align: center;
 }
 #contact .social ul li {
@@ -646,6 +663,14 @@ label {
         background-color: rgba(59, 59, 59, 0.849);
       }
     }
+  }
+}
+
+@media (max-width: 1375px) {
+  .center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
