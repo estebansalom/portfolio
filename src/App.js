@@ -27,7 +27,10 @@ function App() {
           <Landing data={landingPageData}></Landing>
         </Route>
         <Route exact path="/projects">
-          <Projects data={landingPageData.Projects}></Projects>
+          <Projects
+            data={landingPageData.Projects}
+            contact={landingPageData.Contact}
+          ></Projects>
         </Route>
       </div>
     </Router>

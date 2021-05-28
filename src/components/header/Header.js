@@ -25,7 +25,7 @@ export default function Header() {
           Projects
         </Link>
         <Link
-          to="/docs/EstebanSalomCastillo-SoftwareDeveloper.docx"
+          to="/docs/EstebanSalomCastillo-SoftwareDeveloper.pdf"
           activeClassName="selected"
           className="header__link--base"
           target="_blank"

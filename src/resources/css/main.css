@@ -303,7 +303,7 @@ li {
     opacity: 1; }
 
 .projects__page--base {
-  padding: 0 10%; }
+  padding: 0 10% 10%; }
 
 .projects__link-underline--base {
   padding-bottom: 4px; }
