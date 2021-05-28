@@ -12,7 +12,7 @@ const Landing = (props) => {
       <div
         className="landing__parallax-container--base"
         style={{
-          backgroundImage: `url(/img/parallax5.jpg)`,
+          backgroundImage: `url(https://res.cloudinary.com/esalomc/image/upload/v1622167864/parallax5.jpg)`,
         }}
       >
         <div className="landing__title--base">

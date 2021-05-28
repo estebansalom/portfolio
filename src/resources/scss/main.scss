@@ -500,7 +500,11 @@ li {
 
 #contact {
   padding: 2% 2% 15px;
-  background: linear-gradient(to right, #333333 0%, #777777 100%);
+  background: linear-gradient(
+    to bottom right,
+    rgb(58, 58, 58) 0%,
+    rgb(32, 32, 32) 100%
+  );
   color: rgba(255, 255, 255, 0.75);
 }
 

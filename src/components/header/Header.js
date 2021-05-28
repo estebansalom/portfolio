@@ -24,14 +24,6 @@ export default function Header() {
         >
           Projects
         </Link>
-        {/* <Link
-          to="#contact"
-          href="#contact"
-          activeClassName="selected"
-          className="header__link--base"
-        >
-          Contact
-        </Link> */}
         <Link
           to="/docs/EstebanSalomCastillo-SoftwareDeveloper.docx"
           activeClassName="selected"
