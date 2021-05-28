@@ -29,7 +29,6 @@ export default function Header() {
           activeClassName="selected"
           className="header__link--base"
           target="_blank"
-          download
         >
           View CV
         </Link>
