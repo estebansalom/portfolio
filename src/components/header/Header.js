@@ -24,14 +24,14 @@ export default function Header() {
         >
           Projects
         </Link>
-        <Link
-          to="https://res.cloudinary.com/esalomc/image/upload/v1622169320/EstebanSalomCastillo-SoftwareDeveloper.pdf"
+        <a
+          href="https://res.cloudinary.com/esalomc/image/upload/v1622169320/EstebanSalomCastillo-SoftwareDeveloper.pdf"
           activeClassName="selected"
           className="header__link--base"
           target="_blank"
         >
           View CV
-        </Link>
+        </a>
       </div>
     </div>
   );
