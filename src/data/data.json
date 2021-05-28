@@ -227,22 +227,22 @@
             "images":[
                 {
                     "alt": "Toqui Landing Page",
-                    "url": "img/LandingToqui.PNG",
+                    "url": "/img/LandingToqui.PNG",
                     "name":"Landing Page"
                 },
                 {
                     "alt": "Toqui Hotel Information Page",
-                    "url": "img/PanelHotelToqui.PNG",
+                    "url": "/img/PanelHotelToqui.PNG",
                     "name":"Hotel Information Page"
                 },
                 {
                     "alt": "Toqui Hotel Manager Dashboard",
-                    "url": "img/HoteleroToqui1.PNG",
+                    "url": "/img/HoteleroToqui1.PNG",
                     "name":"Hotel Manager Dashboard"
                 },
                 {
                     "alt": "Toqui Hotel Manager Dashboard 2",
-                    "url": "img/HoteleroToqui2.PNG",
+                    "url": "/img/HoteleroToqui2.PNG",
                     "name":"Hotel Manager Dashboard"
                 }
             ]
@@ -273,17 +273,17 @@
             "images":[
                 {
                     "alt": "BankIt Dashboard",
-                    "url": "img/BancoDashboard.PNG",
+                    "url": "/img/BancoDashboard.PNG",
                     "name":"Dashboard"
                 },
                 {
                     "alt": "BankIt Login Page",
-                    "url": "img/BancoLogin.PNG",
+                    "url": "/img/BancoLogin.PNG",
                     "name":"Login"
                 },
                 {
                     "alt": "BankIt Page",
-                    "url": "img/BancoTransfer.PNG",
+                    "url": "/img/BancoTransfer.PNG",
                     "name":"Register Transfer Page"
                 }
             ]
@@ -314,22 +314,22 @@
             "images":[
                 {
                     "alt": "Client Panel Landing Page",
-                    "url": "img/ClientPanelLanding.PNG",
+                    "url": "/img/ClientPanelLanding.PNG",
                     "name":"Dashboard"
                 },
                 {
                     "alt": "Client Panel Login Page",
-                    "url": "img/ClientPanelLogin.PNG",
+                    "url": "/img/ClientPanelLogin.PNG",
                     "name":"Login"
                 },
                 {
                     "alt": "Client Panel Profile Page",
-                    "url": "img/ClientPanelProfile.PNG",
+                    "url": "/img/ClientPanelProfile.PNG",
                     "name":"Profile"
                 },
                 {
                     "alt": "Client Panel Profile Page",
-                    "url": "img/ClientPanelSettings.PNG",
+                    "url": "/img/ClientPanelSettings.PNG",
                     "name":"Settings"
                 }
             ]
@@ -360,7 +360,7 @@
             "images":[
                 {
                     "alt": "Reinos Cenfotecos Game Board",
-                    "url": "img/ReinosCenfotecos.PNG",
+                    "url": "/img/ReinosCenfotecos.PNG",
                     "name":"Game Board"
                 }
             ]
@@ -391,22 +391,22 @@
             "images":[
                 {
                     "alt": "Landing Page for Asistentes Cenfotec",
-                    "url": "img/AsistentesCenfoLanding.PNG",
+                    "url": "/img/AsistentesCenfoLanding.PNG",
                     "name":"Landing Page"
                 },
                 {
                     "alt": "User Registry Form for Asistentes Cenfotec",
-                    "url": "img/AsistentesCenfoUsuarios.PNG",
+                    "url": "/img/AsistentesCenfoUsuarios.PNG",
                     "name":"User Registry Form"
                 },
                 {
                     "alt": "Location Registry Form for Asistentes Cenfotec",
-                    "url": "img/AsistentesCenfoSedes.PNG",
+                    "url": "/img/AsistentesCenfoSedes.PNG",
                     "name":"Location Registry Form"
                 },
                 {
                     "alt": "Profile for Asistentes Cenfotec",
-                    "url": "img/AsistentesCenfoPerfil.PNG",
+                    "url": "/img/AsistentesCenfoPerfil.PNG",
                     "name":"Profile"
                 }
             ]
@@ -437,22 +437,22 @@
             "images":[
                 {
                     "alt": "Landing page de FitSwap",
-                    "url": "img/FitSwapLanding.PNG",
+                    "url": "/img/FitSwapLanding.PNG",
                     "name":"Landing Page"
                 },
                 {
                     "alt": "Perfil de FitSwap modo Oscuro",
-                    "url": "img/FitSwapProfile.PNG",
+                    "url": "/img/FitSwapProfile.PNG",
                     "name":"Profile"
                 },
                 {
                     "alt": "Post de FitSwap modo Oscuro",
-                    "url": "img/FitSwapPostNM.PNG",
+                    "url": "/img/FitSwapPostNM.PNG",
                     "name":"Post Night Mode"
                 },
                 {
                     "alt": "Landing page de FitSwap modo Oscuro",
-                    "url": "img/FitSwapLandingNM.PNG",
+                    "url": "/img/FitSwapLandingNM.PNG",
                     "name":"Landing Page Night Mode"
                 }
             ]
