@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import { useState, useEffect } from "react";
 import "./App.css";
 import "./resources/css/main.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import Projects from "./pages/Projects";
