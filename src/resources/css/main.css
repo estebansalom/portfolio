@@ -502,4 +502,8 @@ label {
     ul > li {
       text-align: center; }
   .projects__page--base {
-    padding: 0 3%; } }
+    padding: 0 3%; }
+  .landing__parallax-container--base {
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll; } }

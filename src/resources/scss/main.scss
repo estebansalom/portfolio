@@ -705,4 +705,10 @@ label {
   .projects__page--base {
     padding: 0 3%;
   }
+
+  .landing__parallax-container--base {
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
