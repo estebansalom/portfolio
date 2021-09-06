@@ -223,28 +223,22 @@
                 }
             ],
             "url":"money-roomba.herokuapp.com",
-            "description":"MoneyRoomba was presented at ExpoCenfo as one of the best projects of the second quarter of 2021 because of it's electronic invoice reception system, open API, and outstanding overall quality. The project was also selected by Cenfotec to participate on behalf of the university, at the biggest regional entreperneuership competition in Central America (YoEmprendedor). MoneyRoomba was an app developed to help everyone keep track of their finances, developed at Universidad Cenfotec while coursing “Proyecto de Ingeniería de Software III”. MoneyRoomba was developed using an Angular11 Web Application for the Front-End and a Java Spring Back-End application connected to a MySQL database, all hosted in the cloud using Heroku services. We overcame the challenge of using completely new technologies selected by our professors, such as JHipster, with less than 6 weeks' time for development.",
+            "description":"MoneyRoomba was presented at ExpoCenfo as one of the best projects of the second quarter of 2021 because of it's electronic invoice reception system, open API, and outstanding overall quality. The project was also selected by Cenfotec to participate on behalf of the university, at the biggest regional entreperneuership competition in Central America (YoEmprendedor). MoneyRoomba was a an app developed to help everyone keep track of their finances, developed at Universidad Cenfotec while coursing “Proyecto de Ingeniería de Software III”. MoneyRoomba was developed using an Angular11 Web Application for the Front-End and a Java Spring Back-End application connected to a MySQL database all hosted in the cloud using Heroku services. We overcame the challenge of using completely new technologies selected by our professors, such as JHipster, with less than 6 weeks time for development.",
             "images":[
                 {
                     "alt": "MoneyRoomba Dashboard",
-                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1630954609/Dashboard.png",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/BancoDashboard.PNG",
                     "name":"Dashboard"
                 },
                 {
                     "alt": "MoneyRoomba Wallet Center",
-                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1630954609/WalletCenter.png",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/BancoLogin.PNG",
                     "name":"Wallet Center"
                 },
                 {
                     "alt": "MoneyRoomba Transactions",
-                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1630954609/Transactions.png",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/BancoTransfer.PNG",
                     "name":"Transactions"
-                }
-                ,
-                {
-                    "alt": "MoneyRoomba Admin Console",
-                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1630954609/AdminConsole.png",
-                    "name":"Admin Console"
                 }
             ]
         },
@@ -316,7 +310,7 @@
                 }
             ],
             "url":"",
-            "description":"This project was developed while coursing the BrainStation Web Development Immersive at Konrad Group. It was a mock bank application created as a first approach for different technologies, using ReactJS with hooks for the Front-End, Spring Boot for the Back-End and a MySQL Database.",
+            "description":"This project was developed while coursing the BrainStation Web Development Immersive at Konrad Group. It was a mock bank application created using ReactJS with for the Front-End, Spring Boot for the Back-End and a MySQL Database.",
             "images":[
                 {
                     "alt": "BankIt Dashboard",
@@ -332,6 +326,52 @@
                     "alt": "BankIt Page",
                     "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/BancoTransfer.PNG",
                     "name":"Register Transfer Page"
+                }
+            ]
+        },
+        {
+            "name":"Client Panel",
+            "date":"I-2019",
+            "position": "Front-End and Back-End Development",
+            "technologies": [
+                {
+                    "type":"Back-End",
+                    "name": "FireBase",
+                    "icon": ""
+                },
+                {
+                    "type":"Front-End",
+                    "name": "ReactJS",
+                    "icon": ""
+                },
+                {
+                    "type":"Data Base",
+                    "name": "FireBase",
+                    "icon": ""
+                }
+            ],
+            "url":"",
+            "description":"This project was developed on my spare time following Brad Traversy's “React Front to Back” course on Udemy. It was a client balance managing app created using ReactJS with Redux for the Front-End, and FireBase for the Back-End and data storage.",
+            "images":[
+                {
+                    "alt": "Client Panel Landing Page",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/ClientPanelLanding.PNG",
+                    "name":"Dashboard"
+                },
+                {
+                    "alt": "Client Panel Login Page",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/ClientPanelLogin.PNG",
+                    "name":"Login"
+                },
+                {
+                    "alt": "Client Panel Profile Page",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/ClientPanelProfile.PNG",
+                    "name":"Profile"
+                },
+                {
+                    "alt": "Client Panel Profile Page",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/ClientPanelSettings.PNG",
+                    "name":"Settings"
                 }
             ]
         },
