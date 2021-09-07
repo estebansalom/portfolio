@@ -76,7 +76,7 @@ li {
   background-color: #2b2b2b; }
 
 .selected {
-  color: #999999 !important; }
+  color: #ffffff !important; }
 
 .react-sweet-progress-symbol {
   color: #ffffff !important;
@@ -106,12 +106,12 @@ li {
   .header__container--base > div > a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    color: #999;
     font-size: medium;
     font-size: 1.2rem;
     font-weight: lighter; }
     .header__container--base > div > a:hover {
-      color: #999; }
+      color: #ffffff; }
 
 .header__home-container--base {
   display: flex;

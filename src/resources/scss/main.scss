@@ -85,7 +85,7 @@ li {
 }
 
 .selected {
-  color: #999999 !important;
+  color: #ffffff !important;
 }
 
 .react-sweet-progress-symbol {
@@ -124,12 +124,12 @@ li {
       & > div > a {
         text-decoration: none;
         font-family: "Roboto", sans-serif;
-        color: #ffffff;
+        color: #999;
         font-size: medium;
         font-size: 1.2rem;
         font-weight: lighter;
         &:hover {
-          color: #999;
+          color: #ffffff;
         }
       }
     }
