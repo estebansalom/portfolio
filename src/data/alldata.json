@@ -376,6 +376,37 @@
             ]
         },
         {
+            "name":"Contact List",
+            "date":"I-2019",
+            "position": "Front-End and Back-End Development",
+            "technologies": [
+                {
+                    "type":"Back-End",
+                    "name": "FireBase",
+                    "icon": ""
+                },
+                {
+                    "type":"Front-End",
+                    "name": "ReactJS",
+                    "icon": ""
+                }
+            ],
+            "url":"",
+            "description":"This project was developed on my spare time following Brad Traversy's “React Front to Back” course on Udemy. It was a client balance managing app created using ReactJS with Redux for the Front-End, and FireBase for the Back-End and data storage.",
+            "images":[
+                {
+                    "alt": "Contact List Landing Page",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/ClientPanelLanding.PNG",
+                    "name":"Contact List"
+                },
+                {
+                    "alt": "Contact List Add Contact",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/ClientPanelLogin.PNG",
+                    "name":"Add Contact"
+                }
+            ]
+        },
+        {
             "name":"Reinos Cenfotecos",
             "date":"II-2020",
             "position": "Front-End and Back-End Development",
