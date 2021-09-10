@@ -396,12 +396,12 @@
             "images":[
                 {
                     "alt": "Contact List Landing Page",
-                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/ClientPanelLanding.PNG",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167862/ContactListList.png",
                     "name":"Contact List"
                 },
                 {
                     "alt": "Contact List Add Contact",
-                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167864/ClientPanelLogin.PNG",
+                    "url": "https://res.cloudinary.com/esalomc/image/upload/v1622167862/ContactListForm.png",
                     "name":"Add Contact"
                 }
             ]
