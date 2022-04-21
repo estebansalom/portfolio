@@ -20,13 +20,27 @@
     ],
     "Experience":[
         {
+            "place":"Microsoft",
+            "address":"Work From Home",
+            "title":"Azure SQL DB & Managed Instance Support Engineer Intern",
+            "from":"February, 2022",
+            "to":"TODAY",
+            "description":"I am currently working as a Software Support Engineer Intern on the Azure SQL Database and Managed Instance Team where I have learned and practised skills required to manage and support SQL Server Database instances, both in Azure and on premises. Some of the areas of database development and maintenance I have been practicing include:",
+            "image": "https://res.cloudinary.com/esalomc/image/upload/v1650508938/ms-logo.png",
+            "tasks":[
+                {"name":"Development"},
+                {"name":"Conectivity"},
+                {"name":"Security"}
+            ]
+        },
+        {
             "place":"Amazon",
             "address":"Work From Home",
             "title":"Shipping & Delivery Support",
             "from":"October, 2020",
             "to":"January, 2021",
             "description":"I was part of the Shipping & Delivery Support team at Amazon while trying to apply for a Development Job from within the company. I was awarded Top Preformer on our caller satisfaction metric for two weeks straight on my supervisor's group. Some of my responsibilities while working at Amazon included:",
-            "image": "img/amazon.png",
+            "image": "https://res.cloudinary.com/esalomc/image/upload/v1650510094/amzn-logo.png",
             "tasks":[
                 {"name":"Guiding delivery personnel using mapping tools"},
                 {"name":"Handling errors with missing shipments"},
@@ -197,7 +211,7 @@
             "name":"Angular7"
         },
         {
-            "name":"SpringBoot"
+            "name":"Java Spring"
         }
     ],
     "Projects":[

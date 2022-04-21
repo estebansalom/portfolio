@@ -20,13 +20,27 @@
     ],
     "Experience":[
         {
+            "place":"Microsoft",
+            "address":"Work From Home",
+            "title":"Azure SQL DB & Managed Instance Support Engineer Intern",
+            "from":"February, 2022",
+            "to":"TODAY",
+            "description":"I am currently working as a Software Support Engineer Intern on the Azure SQL Database and Managed Instance Team where I have learned and practiced skills required to manage and support SQL Server Database instances, both in Azure and on premises. Some of the areas of database development and maintenance I have been practicing include:",
+            "image": "https://res.cloudinary.com/esalomc/image/upload/v1650508938/ms-logo.png",
+            "tasks":[
+                {"name":"Development"},
+                {"name":"Conectivity"},
+                {"name":"Security"}
+            ]
+        },
+        {
             "place":"Amazon",
             "address":"Work From Home",
             "title":"Shipping & Delivery Support",
             "from":"October, 2020",
             "to":"January, 2021",
             "description":"I was part of the Shipping & Delivery Support team at Amazon while trying to apply for a Development Job from within the company. I was awarded Top Performer on our caller satisfaction metric for two weeks straight on my supervisor's group. Some of my responsibilities while working at Amazon include:",
-            "image": "img/amazon.png",
+            "image": "https://res.cloudinary.com/esalomc/image/upload/v1650510094/amzn-logo.png",
             "tasks":[
                 {"name":"Guiding delivery personnel using mapping tools"},
                 {"name":"Handling errors with missing shipments"},
@@ -41,7 +55,7 @@
             "from":"January, 2020",
             "to":"April, 2020",
             "description":"I was awarded a scholarship to participate in a Fullstack Web Development Immersive program where I worked with technologies such as Java Spring Boot and Node.js for back-end development, Angular, vanilla JS, and React.js w/ hooks, for front-end development, and also received several “Power Hours” with software professionals who shared useful information on Sass animations, Quality Assurance and other topics relevant to software development. Some of the skills I practiced during my time in Konrad include:",
-            "image": "img/bs.png",
+            "image": "https://res.cloudinary.com/esalomc/image/upload/v1622167860/bs.png",
             "tasks":[
                 {"name":"ReactJS Development"},
                 {"name":"Responsive Web Design"},
@@ -56,7 +70,7 @@
             "from":"January, 2019",
             "to":"December, 2019",
             "description":"My work as Teacher's Aide for the Fundamentals of Programming course at Universidad Cenfotec involved helping teach incoming students the basics of programming through a process starting in sequence diagrams and pseudocode and ending in the bases of Object-Oriented Programming in Java. Some of my responsibilities as a TA included:",
-            "image": "img/cenfo.png",
+            "image": "https://res.cloudinary.com/esalomc/image/upload/v1622167860/cenfo.png",
             "tasks":[
                 {"name":"Helping students during class"},
                 {"name":"Answering students' questions"},
@@ -70,7 +84,7 @@
             "from":"December, 2017",
             "to":"April, 2018",
             "description":"My work for Vail Resorts was part of a student program called “Work & Travel” where university students get to experience working and living in some of the United States' most prestigious ski resorts. While working there I was a cook in charge of a burger stand at a mountain top restaurant called Eagle's Nest, some of my responsibilities working there included:",
-            "image": "img/vail.png",
+            "image": "https://res.cloudinary.com/esalomc/image/upload/v1622167851/vail.png",
             "tasks":[
                 {"name":"Providing customer's with great Mountain Dining Experience."},
                 {"name":"Prepairing and taking orders."},
@@ -197,7 +211,7 @@
             "name":"Angular7"
         },
         {
-            "name":"SpringBoot"
+            "name":"Java Spring"
         }
     ],
     "Projects":[

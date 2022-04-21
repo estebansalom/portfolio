@@ -55,14 +55,14 @@ const Landing = (props) => {
               icon={faJava}
               className="circle-icon"
             ></FontAwesomeIcon>
-            <h3>Spring Boot</h3>
+            <h3>Java Spring</h3>
           </div>
           <div className="landing__skill-icon--base">
             <FontAwesomeIcon
               icon={faAngular}
               className="circle-icon"
             ></FontAwesomeIcon>
-            <h3>Angular</h3>
+            <h3>Angular 12</h3>
           </div>
         </div>
         {props.data.Programming
