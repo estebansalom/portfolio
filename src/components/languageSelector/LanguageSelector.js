@@ -17,7 +17,7 @@ export default function LanguageSelector() {
         <option value="es-ES">Español</option>
       </select> */}
 
-      {lang==="en-US"? <><div className="active" onClick={e => context.setLanguage("en-US")}>
+      {lang!=="es-ES"? <><div className="active" onClick={e => context.setLanguage("en-US")}>
         EN
       </div>
       <div>
