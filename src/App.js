@@ -8,6 +8,8 @@ import SmoothScroll from "smooth-scroll";
 import Projects from "./pages/Projects";
 import Header from "./components/header/Header";
 import Landing from "./pages/landing/Landing";
+import { Context } from "./components/Wrapper";
+import { useContext } from "react";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -19,6 +21,7 @@ function App() {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
+  const context = useContext(Context);
   return (
     <Router>
       <div className="App">

@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -9,9 +10,9 @@ const Project = (props) => {
         className="project-card project__card--base"
       >
         <h2>{props.data.name}</h2>
-        <h4>{props.data.position}</h4>
+        <h4><FormattedMessage id={"app.projects."+props.data.i18n+".position"} defaultMessageltMessage={props.data.position}/></h4>
         <h5>{props.data.date}</h5>
-        <p className="project__description--base">{props.data.description}</p>
+        <p className="project__description--base"><FormattedMessage id={"app.projects."+props.data.i18n+".description"} defaultMessageltMessage={props.data.description}/></p>
         <div className="thumbnail">
           {" "}
           <Carousel>
@@ -19,7 +20,7 @@ const Project = (props) => {
               ? props.data.images.map((pic, j) => (
                   <div key={`${pic.name}-${j}`}>
                     <img src={pic.url} alt={pic.alt} />
-                    <p className="legend">{pic.name}</p>
+                    <p className="legend"><FormattedMessage id={"app.projects."+props.data.i18n+".image.label."+(j+1)} defaultMessage={pic.name} /></p>
                   </div>
                 ))
               : ""}

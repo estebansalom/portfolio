@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box; }
 
+.active {
+  color: #fff; }
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -124,6 +127,10 @@ li {
   width: 70%;
   height: 100%;
   justify-content: space-evenly; }
+
+.header__select-container--base {
+  display: flex;
+  flex-direction: row; }
 
 .landing__parallax-container--base {
   width: 100%;

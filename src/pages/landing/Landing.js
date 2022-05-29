@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faAngular, faJava } from "@fortawesome/free-brands-svg-icons";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Contact from "../../components/contact/Contact";
+import { FormattedMessage } from "react-intl";
 
 const Landing = (props) => {
   return (
@@ -18,29 +19,30 @@ const Landing = (props) => {
         <div className="landing__title--base">
           {props.data.Personal ? props.data.Personal.name : "Esteban Salom"}
         </div>
-        <div className="landing__subtitle--base">Software Developer</div>
+        <div className="landing__subtitle--base"><FormattedMessage id="app.personal.job" defaultMessage="Software Developer"/></div>
         <a href="#about" className="landing__button--base page-scroll">
-          More Info
+        <FormattedMessage id="app.parallax.button" defaultMessage="More Info"/>
         </a>{" "}
       </div>
       <div id="about" className="landing__about--base section">
         <div className="title-underline">
-          <h2 className="section-title">About Me</h2>
+          <h2 className="section-title"><FormattedMessage id="app.titles.aboutme" defaultMessage="About Me"/></h2>
         </div>
         <div className="row landing__about-info--base">
           <div className="landing__about-image--base">
             <img src="img/profile-pic.jpg" alt="" />
           </div>
           <div className="landing__about-description--base">
+            
             {props.data.Personal
-              ? props.data.Personal.description
+              ? <FormattedMessage id="app.personal.description" defaultMessage={props.data.Personal.description}/> 
               : "Loading..."}
           </div>
         </div>
       </div>
       <div id="skills" className="landing__skills--base section dark">
         <div className="title-underline">
-          <h2 className="section-title dm-text">Skills</h2>
+          <h2 className="section-title dm-text"><FormattedMessage id="app.titles.skills" defaultMessage="Skills"/></h2>
         </div>
         <div className="landing__skill-icons--base">
           <div className="landing__skill-icon--base">
@@ -90,7 +92,7 @@ const Landing = (props) => {
                 >
                   <ul className="landing__soft-skills-list--base">
                     {sk.map((s, j) => (
-                      <h3 className="dm-text">{s.name}</h3>
+                      <h3 className="dm-text"><FormattedMessage id={"app.soft_skills."+(j+(i*3)+1)} defaultMessage={s.name}/></h3>
                     ))}
                   </ul>
                 </div>
@@ -100,7 +102,7 @@ const Landing = (props) => {
       </div>
       <div id="formation" className="landing__formation--base section">
         <div className="title-underline">
-          <h2 className="section-title">Education</h2>
+          <h2 className="section-title"><FormattedMessage id="app.titles.formation" defaultMessage="Education"/></h2>
         </div>
         <div className="landing__degrees--base">
           {props.data.Formation
@@ -110,10 +112,10 @@ const Landing = (props) => {
                   className="row landing__degree--base"
                 >
                   <h3 className="center">
-                    {f.degree} at {f.place}
+                  <FormattedMessage id={"app.formation.degree."+f.i18n} defaultMessage={f.degree}/> <FormattedMessage id="app.general.at" defaultMessage="at"/> {f.place}
                   </h3>{" "}
                   <h5 className="center">
-                    {f.from} - {f.to}
+                  <FormattedMessage id={"app.formation.start_date."+f.i18n} defaultMessage={f.from} /> - <FormattedMessage id={"app.formation.end_date."+f.i18n} defaultMessage={f.to} />
                   </h5>
                 </div>
               ))
@@ -122,11 +124,12 @@ const Landing = (props) => {
       </div>
       <div id="portfolio" className="landing__portfolio--base section">
         <div className="title-underline">
-          <h2 className="section-title">Portfolio</h2>
+          <h2 className="section-title"><FormattedMessage id="app.titles.portfolio" defaultMessage="Portfolio"/></h2>
         </div>
         <p className="landing__portfolio-description--base">
-          Below you can find some of my most outstanding projects. Click on any
-          one of them for more information about it.
+        <FormattedMessage id="app.portfolio.description" defaultMessage="Below you can find some of my most outstanding projects. Click on any
+          one of them for more information about it."/>
+          
         </p>
         <div className="landing__portfolio-items--base">
           {props.data.Projects
@@ -136,13 +139,13 @@ const Landing = (props) => {
       </div>
       <div id="languages" className="landing__languages--base section dark">
         <div className="title-underline">
-          <h2 className="section-title dm-text">Languages</h2>
+          <h2 className="section-title dm-text"><FormattedMessage id="app.titles.languages" defaultMessage="Languages"/></h2>
         </div>
 
         {props.data.Languages
           ? props.data.Languages.map((l, i) => (
               <div key={l.name + "-" + i} className="landing__language--base">
-                <h3 className="dm-text">{l.name}</h3>
+                <h3 className="dm-text"> <FormattedMessage id={"app.languages."+l.name.toLowerCase()} defaultMessage={l.name}/></h3>
                 <Progress
                   theme={{
                     active: {
@@ -158,7 +161,7 @@ const Landing = (props) => {
       </div>
       <div id="experience" className="landing__experience--base section">
         <div className="title-underline">
-          <h2 className="section-title">Experience</h2>
+          <h2 className="section-title"><FormattedMessage id="app.titles.experience" defaultMessage="Experience"/></h2>
         </div>
         <div className="landing__experiences--base">
           {props.data.Experience
@@ -169,10 +172,10 @@ const Landing = (props) => {
                     className="landing__position--base"
                   >
                     <h3 className="center">
-                      {e.title} at {e.place}
+                    <FormattedMessage id={"app.experience.title."+e.i18n} defaultMessage={e.title} /> <FormattedMessage id="app.general.at" defaultMessage="at"/> {e.place}
                     </h3>{" "}
                     <h5 className="center">
-                      {e.from} - {e.to}
+                    <FormattedMessage id={"app.experience.start_date."+e.i18n} defaultMessage={e.from} /> - <FormattedMessage id={"app.experience.end_date."+e.i18n} defaultMessage={e.to} />
                     </h5>
                     <div className=" row landing__job-info--base">
                       <img
@@ -181,10 +184,10 @@ const Landing = (props) => {
                         className="landing__job-logo--base"
                       />
                       <div className="landing__job-description--base">
-                        <p>{e.description}</p>
+                        <FormattedMessage id={"app.experience.description."+e.i18n} defaultMessage={e.description} />
                         <ul>
                           {e.tasks.map((t, j) => (
-                            <li>{t.name}</li>
+                            <li><FormattedMessage id={"app.experience.tasks."+e.i18n+"."+(j+1)} defaultMessage={t.name} /></li>
                           ))}
                         </ul>
                       </div>
