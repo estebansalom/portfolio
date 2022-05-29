@@ -5,6 +5,7 @@ import App from "./App";
 import Wrapper from "./components/Wrapper";
 //import reportWebVitals from "./reportWebVitals";
 
+require('prerender-node').set('prerenderToken', 're2vMX7O8uUERRTM4lF7');
 ReactDOM.render(
   <React.StrictMode>
     <Wrapper>
