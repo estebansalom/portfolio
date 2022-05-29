@@ -1,12 +1,13 @@
 import React from "react";
 import Project from "../components/project/Project.js";
 import Contact from "../components/contact/Contact.js";
+import { FormattedMessage } from "react-intl";
 
 const Projects = (props) => {
   return (
     <div className="projects__page-container--base">
       <div className="projects__page--base">
-        <h1>Projects</h1>
+        <h1><FormattedMessage id="app.titles.projects" defaultMessage="Projects"/></h1>
         <div className="projects__link-underline--base title-underline">
           <div className="projects__link-container--base row">
             {props.data

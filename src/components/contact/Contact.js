@@ -1,5 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import { FormattedMessage } from "react-intl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
@@ -47,37 +48,36 @@ const Contact = (props) => {
   };
   return (
     <div id="contact">
-      <h2>Contact Me</h2>
+      <h2>
+      <FormattedMessage id="app.titles.footer" defaultMessage="Contact Me"/></h2>
       <div className="row">
         <div className="col-md-8">
           <div className="contact__main--base">
             <div className="contact__title--base">
-              <p>
-                Please fill out the form with accurate and complete information,
-                and I will be contacting you as soon as posible.
-              </p>
+            <FormattedMessage id="app.footer.description" defaultMessage="Please fill out the form with accurate and complete information,
+                and I will be contacting you as soon as posible."/>
             </div>
             <form name="sentMessage" validate onSubmit={handleSubmit}>
               <div className="row contact__input-row--base">
                 <div className="form-group contact__input--base">
+                  <label for="name"> <FormattedMessage id="app.footer.input.name" defaultMessage="Name"/></label>
                   <input
                     type="text"
                     id="name"
                     name="name"
                     className="form-control"
-                    placeholder="Name"
                     required
                     onChange={handleChange}
                   />
                   <p className="help-block text-danger"></p>
                 </div>
                 <div className="form-group contact__input--base">
+                <label for="email"> <FormattedMessage id="app.footer.input.email" defaultMessage="Email"/></label>
                   <input
                     type="email"
                     id="email"
                     name="email"
                     className="form-control"
-                    placeholder="Email"
                     required
                     onChange={handleChange}
                   />
@@ -85,12 +85,12 @@ const Contact = (props) => {
                 </div>
               </div>
               <div className="form-group">
+              <label for="message"> <FormattedMessage id="app.footer.input.message" defaultMessage="Message"/></label>
                 <textarea
                   name="message"
                   id="message"
                   className="form-control"
                   rows="6"
-                  placeholder="Message"
                   required
                   onChange={handleChange}
                 ></textarea>
@@ -101,21 +101,21 @@ const Contact = (props) => {
                 type="submit"
                 className="btn-custom contact__button--base"
               >
-                Send Message
+                <FormattedMessage id="app.footer.button" defaultMessage="Send Message"/>
               </button>
             </form>
           </div>
         </div>
         <div className="contact-info">
           <div className="contact-item">
-            <h3>Contact Information</h3>
+            <h3><FormattedMessage id="app.footer.info" defaultMessage="Contact Information"/></h3>
             <p>
               <span>
                 <FontAwesomeIcon
                   icon={faLocationArrow}
                   className="fa"
                 ></FontAwesomeIcon>{" "}
-                Address
+                <FormattedMessage id="app.footer.address" defaultMessage="Address"/>
               </span>
               {props.data ? props.data.address : "loading"}
             </p>
@@ -127,7 +127,7 @@ const Contact = (props) => {
                   icon={faPhone}
                   className="fa fa-phone"
                 ></FontAwesomeIcon>{" "}
-                Phone
+                <FormattedMessage id="app.footer.phone" defaultMessage="Phone"/>
               </span>{" "}
               {props.data ? props.data.phone : "loading"}
             </p>
@@ -139,7 +139,7 @@ const Contact = (props) => {
                   icon={faEnvelopeOpen}
                   className="fa fa-envelope-o"
                 ></FontAwesomeIcon>{" "}
-                Email
+                <FormattedMessage id="app.footer.email" defaultMessage="Email"/>
               </span>{" "}
               <a href="mailto:esteban.salom@gmail.com">
                 {props.data ? props.data.email : "loading"}

@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink as Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import LanguageSelector from "../languageSelector/LanguageSelector";
+import { FormattedMessage } from "react-intl";
 
 export default function Header() {
   return (
@@ -13,7 +15,7 @@ export default function Header() {
           activeClassName="selected"
           className="header__home--base"
         >
-          Portfolio
+          <FormattedMessage id="app.header.portfolio" defaultMessage="Portfolio"/>
         </Link>
       </div>
       <div className="header__link-container--base">
@@ -22,7 +24,7 @@ export default function Header() {
           activeClassName="selected"
           className="header__home--base"
         >
-          Projects
+          <FormattedMessage id="app.header.projects" defaultMessage="Projects"/>
         </Link>
         <a
           href="https://res.cloudinary.com/esalomc/image/upload/v1622169320/EstebanSalomCastillo-SoftwareDeveloper.pdf"
@@ -30,8 +32,10 @@ export default function Header() {
           className="header__link--base"
           target="_blank"
         >
-          View CV
+          <FormattedMessage id="app.header.cv" defaultMessage="View CV"/>
+          
         </a>
+        <LanguageSelector></LanguageSelector>
       </div>
     </div>
   );

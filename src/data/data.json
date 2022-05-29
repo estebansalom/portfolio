@@ -20,6 +20,7 @@
     ],
     "Experience":[
         {
+            "i18n":"microsoft",
             "place":"Microsoft",
             "address":"Work From Home",
             "title":"Azure SQL DB & Managed Instance Support Engineer Intern",
@@ -34,6 +35,7 @@
             ]
         },
         {
+            "i18n":"amazon",
             "place":"Amazon",
             "address":"Work From Home",
             "title":"Shipping & Delivery Support",
@@ -49,6 +51,7 @@
             ]
         },
         {
+            "i18n":"konrad",
             "place":"Konrad Group",
             "address":"Tres Ríos, Cartago, Costa Rica",
             "title":"Intern",
@@ -64,6 +67,7 @@
             ]
         },
         {
+            "i18n":"cenfotec",
             "place":"Universidad Cenfotec",
             "address":"Montes de Oca, San José, Costa Rica",
             "title":"Teacher's Aide",
@@ -78,6 +82,7 @@
             ]
         },
         {
+            "i18n":"vail",
             "place":"Vail Resorts",
             "address":"Vail, Colorado, USA",
             "title":"Mountain Dinning Staff",
@@ -94,36 +99,42 @@
     ],
     "Formation":[
         {
+            "i18n":"bachelor",
             "place":"Universidad Cenfotec",
             "from":"April, 2017",
             "to":"present",
             "degree":"Bachelor's Degree in Software Engineering"
         },
         {
+            "i18n":"tech",
             "place":"Universidad Cenfotec",
             "from":"April, 2017",
             "to":"September, 2019",
             "degree":"Software Development Technical Degree"
         },
         {
+            "i18n":"ucr",
             "place":"Universidad de Costa Rica",
             "from":"March, 2017",
             "to":"December, 2017",
             "degree":"Bachelor's Degree in Architecture"
         },
         {
+            "i18n":"tec",
             "place":"Tecnológico de Costa Rica",
             "from":"January, 2017",
             "to":"August, 2017",
             "degree":"Engineering and Architectural Drawing Technical Degree"
         },
         {
+            "i18n":"high",
             "place":"Mount View High School",
             "from":"September, 2013",
             "to":"November, 2016",
             "degree":"National Bachelor's Degree"
         },
         {
+            "i18n":"middle",
             "place":"Angloamerican High School",
             "from":"February, 2002",
             "to":"September, 2013",
@@ -216,6 +227,7 @@
     ],
     "Projects":[
         {
+            "i18n":"moneyroomba",
             "name":"MoneyRoomba",
             "date":"II-2021",
             "position": "Front-End and Back-End Development",
@@ -263,6 +275,7 @@
             ]
         },
         {
+            "i18n":"toqui",
             "name":"Toquí",
             "date":"II-2019",
             "position": "Support / Coordination",
@@ -309,6 +322,7 @@
             ]
         },
         {
+            "i18n":"bankit",
             "name":"BankIt",
             "date":"I-2020",
             "position": "Front-End and Back-End Development",
@@ -350,6 +364,7 @@
             ]
         },
         {
+            "i18n":"reinos",
             "name":"Reinos Cenfotecos",
             "date":"II-2020",
             "position": "Front-End and Back-End Development",
@@ -381,6 +396,7 @@
             ]
         },
         {
+            "i18n":"cenfotec",
             "name":"Asistentes Cenfotec",
             "date":"II-2018",
             "position": "QA / Development",
@@ -427,6 +443,7 @@
             ]
         },
         {
+            "i18n":"fitswap",
             "name":"FitSwap",
             "date":"III-2020",
             "position": "Front-End and Back-End Development",
@@ -474,7 +491,7 @@
         }
     ],
     "Contact": {
-        "address": "Calle 112, La Asunción, Belén, Heredia.",
+        "address": "Calle 31, Bo. Fco. Peralta, El Carmen, San José",
         "phone": "+506 84336258",
         "email": "esteban.salom@gmail.com",
         "github": "https://github.com/estebansalom/",
